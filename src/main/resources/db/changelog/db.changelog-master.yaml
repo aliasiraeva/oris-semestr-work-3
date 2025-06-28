@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/script/creation/create_advertisement.sql
+  - include:
+      file: db/changelog/script/creation/create_announcement.sql
+  - include:
+      file: db/changelog/script/creation/create_subscription.sql
+  - include:
+      file: db/changelog/script/creation/create_tag.sql
+  - include:
+      file: db/changelog/script/creation/create_user.sql
+  - include:
+      file: db/changelog/script/creation/many_to_many_utils.sql
+#  - include:
+#      file: db/changelog/script/first_example_data.sql
+#  - include:
+#      file: db/changelog/script/second_example_data.sql
+#  - include:
+#      file: db/changelog/script/third_example_data.sql
